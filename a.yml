@@ -1,0 +1,16 @@
+flutter_native_splash:
+  color: "#FFFFFF" # Background color
+  image: false # No image
+  text: "Finding Beacons" # Text to display
+  text_color: "#0000FF" # Text color (blue)
+  text_size: 30 # Adjust text size
+  text_font: "Arial" # Specify a font family (ensure it's available)
+  text_style: "bold" # Specify the text style (bold, italic, etc.)
+  android: {
+    full_screen: true # Make it full screen on Android
+    gravity: center # Center the text vertically and horizontally
+  }
+  ios: {
+    full_screen: true # Make it full screen on iOS
+    gravity: center # Center the text vertically and horizontally
+  }
